@@ -9,8 +9,13 @@
 <p align="left"> <a href="https://www.sqlite.org/index.html" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Sqlite-square-icon.svg" alt="sqllite" width="40" height="40"/> </a>
 
 <h6>Try to use credential as Username - admin and Password - 1234 If you have not connected with database</h6>
-
-
+<h3>Screenshots</h3>
+<p><img src="https://github.com/ikaushalmartin/Precautionary-Medicine-Android-App-/blob/App/icons%20and%20vector/Screenshot_1627899718.png" width="280" height="510">
+<img src="https://github.com/ikaushalmartin/Precautionary-Medicine-Android-App-/blob/App/icons%20and%20vector/Screenshot_1627899723.png" width="280" height="510">
+<img src="https://github.com/ikaushalmartin/Precautionary-Medicine-Android-App-/blob/App/icons%20and%20vector/Screenshot_1627899736.png" width="280" height="510">
+<img src="https://github.com/ikaushalmartin/Precautionary-Medicine-Android-App-/blob/App/icons%20and%20vector/Screenshot_1627899741.png" width="280" height="510">
+  <img src="https://github.com/ikaushalmartin/Precautionary-Medicine-Android-App-/blob/App/icons%20and%20vector/Screenshot_1627899747.png" width="280" height="510">
+</p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
