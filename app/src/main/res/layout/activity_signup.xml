@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="145dp"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="126dp"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="Sign Up With Precautionary Medicine"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please fill in this form to create an account!"
+        android:layout_marginTop="80dp"
+        android:textSize="15dp"
+        android:gravity="center_horizontal"
+
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*All fields are mandatory*"
+        android:layout_marginTop="380dp"
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:gravity="center_horizontal"
+
+        android:textColor="@color/grey"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="225dp"
+        android:layout_marginRight="2dp"
+
+android:textColorHint="@color/white"
+        android:inputType="textPersonName"
+        android:hint="First Name"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/userlog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="2dp"
+
+
+
+        android:inputType="textPersonName"
+        android:hint="Second Name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/usersign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+
+
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="245dp"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="39dp"
+        android:textColor="@color/white"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="30dp"
+        android:padding="15dp"
+android:text="Create Account"
+
+        android:backgroundTint="@color/grey"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sign"
+        android:layout_marginTop="420dp"/>
+
+
+</RelativeLayout>

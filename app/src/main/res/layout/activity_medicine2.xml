@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".medicine">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="50dp"
+            android:foreground="@color/background"
+            android:text="" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:gravity="center_horizontal"
+            android:layout_marginTop="35dp"
+
+            android:text="Precautionary Medicine"
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="66dp"
+
+            android:text="Choose Disease To Get Info!"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+
+        <ImageButton
+            android:id="@+id/bacne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="130dp"
+
+            android:backgroundTint="@color/grey"
+            android:padding="18dp"
+            app:srcCompat="@drawable/acne2" />
+        <ImageButton
+            android:id="@+id/basthma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/asthma"
+            android:backgroundTint="@color/grey"
+            android:layout_marginTop="130dp"
+            android:padding="18dp"
+            android:layout_marginLeft="165dp"/>
+        <ImageButton
+            android:id="@+id/ballergy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/aller"
+            android:backgroundTint="@color/grey"
+            android:layout_marginTop="130dp"
+            android:padding="18dp"
+            android:layout_marginLeft="278dp"/>
+        <ImageButton
+            android:id="@+id/banxiety"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="240dp"
+
+            android:backgroundTint="@color/grey"
+            android:padding="18dp"
+            app:srcCompat="@drawable/anxiety1" />
+        <ImageButton
+            android:id="@+id/bbp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/bp"
+            android:backgroundTint="@color/grey"
+            android:layout_marginTop="240dp"
+            android:padding="18dp"
+            android:layout_marginLeft="165dp"/>
+        <ImageButton
+            android:id="@+id/bbrain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/bt"
+            android:backgroundTint="@color/grey"
+            android:layout_marginTop="240dp"
+            android:padding="18dp"
+            android:layout_marginLeft="278dp"/>
+        <ImageButton
+            android:id="@+id/bchest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="350dp"
+
+            android:backgroundTint="@color/grey"
+            android:padding="18dp"
+            app:srcCompat="@drawable/chestpain" />
+        <ImageButton
+            android:id="@+id/bcold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cold"
+            android:backgroundTint="@color/grey"
+            android:layout_marginTop="350dp"
+            android:padding="18dp"
+            android:layout_marginLeft="165dp"/>
+        <ImageButton
+            android:id="@+id/bcorona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/corona"
+            android:backgroundTint="@color/grey"
+            android:layout_marginTop="350dp"
+            android:padding="18dp"
+            android:layout_marginLeft="278dp"/>
+        <ImageButton
+            android:id="@+id/bcough"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="460dp"
+
+            android:backgroundTint="@color/grey"
+            android:padding="18dp"
+            app:srcCompat="@drawable/cough" />
+        <ImageButton
+            android:id="@+id/bdehydration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/dehy"
+            android:backgroundTint="@color/grey"
+            android:layout_marginTop="460dp"
+            android:padding="18dp"
+            android:layout_marginLeft="165dp"/>
+        <ImageButton
+            android:id="@+id/bdiarrhea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/dia"
+            android:backgroundTint="@color/grey"
+            android:layout_marginTop="460dp"
+            android:padding="18dp"
+            android:layout_marginLeft="278dp"/>
+
+        <ImageButton
+            android:id="@+id/btyphoid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/typhoid"
+            android:backgroundTint="@color/grey"
+            android:layout_marginTop="570dp"
+            android:padding="18dp"
+            android:layout_marginLeft="165dp"/>
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Acne"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="200dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+
+            android:background="@color/grey"
+            />
+        <TextView
+            android:id="@+id/textVie9"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Asthma"
+            android:layout_marginLeft="169dp"
+            android:layout_marginTop="200dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+
+            android:background="@color/grey"
+            />
+        <TextView
+            android:id="@+id/textVie1"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Allergy"
+            android:layout_marginLeft="282dp"
+            android:layout_marginTop="200dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+
+            android:background="@color/grey"
+            />
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Anxiety"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="310dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+
+            android:background="@color/grey"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="B.P"
+            android:layout_marginLeft="169dp"
+            android:layout_marginTop="310dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+
+            android:background="@color/grey"
+            />
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Brain Tumer"
+            android:layout_marginLeft="282dp"
+            android:layout_marginTop="310dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+
+            android:background="@color/grey"
+            />
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Chest Pain"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="418dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+
+            android:background="@color/grey"
+            />
+        <TextView
+            android:id="@+id/t7"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Cold"
+            android:layout_marginLeft="169dp"
+            android:layout_marginTop="418dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+
+            android:background="@color/grey"
+            />
+        <TextView
+            android:id="@+id/t9"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Corona"
+            android:layout_marginLeft="282dp"
+            android:layout_marginTop="418dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+
+            android:background="@color/grey"
+            />
+        <TextView
+            android:id="@+id/t10"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Cough"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="530dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+
+            android:background="@color/grey"
+            />
+        <TextView
+            android:id="@+id/t12"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Dehydration"
+            android:layout_marginLeft="169dp"
+            android:layout_marginTop="530dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+
+            android:background="@color/grey"
+            />
+        <TextView
+            android:id="@+id/t11"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Diarrhea"
+            android:layout_marginLeft="282dp"
+            android:layout_marginTop="530dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+
+            android:background="@color/grey"
+            />
+
+        <TextView
+            android:id="@+id/typhoid"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Typhoid"
+            android:layout_marginLeft="169dp"
+            android:layout_marginTop="642dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+
+            android:background="@color/grey"
+            />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More Will Be Updated Soon"
+            android:layout_marginTop="695dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+
+            />
+
+
+
+</RelativeLayout>

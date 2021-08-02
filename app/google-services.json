@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "45079024720",
+    "project_id": "premed-c4c6a",
+    "storage_bucket": "premed-c4c6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45079024720:android:5e32c2fbcdc7145ab56d55",
+        "android_client_info": {
+          "package_name": "com.example.premed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45079024720-7b34e5vqf403noeg9bv5md8dtiond65l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1PM-4Dmm9pj4nhiBYbWAVNZZfUpevsiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45079024720-7b34e5vqf403noeg9bv5md8dtiond65l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

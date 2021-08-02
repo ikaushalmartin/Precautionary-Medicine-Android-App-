@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".acne">
+
+
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:foreground="@color/background"
+        android:text="fg" />
+
+    <ImageButton
+        android:id="@+id/back14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="40dp"
+        android:padding="4dp"
+        app:srcCompat="@drawable/back" />
+
+    <ImageButton
+        android:id="@+id/home14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="40dp"
+        android:foregroundGravity="center_horizontal"
+        android:padding="5dp"
+
+        app:srcCompat="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/next14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="310dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="40dp"
+        android:padding="4dp"
+        app:srcCompat="@drawable/next" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chest pain"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="48dp"
+        android:gravity="left"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="175dp"
+        android:text="Chest pain can be caused by anything from muscle pain to a heart attack and should never be ignored."
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:gravity="left"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Causes"
+        android:layout_marginLeft="48dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"
+        android:gravity="left"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="280dp"
+        android:gravity="left"
+        android:text="Most chest pain is not heart-related and isn't a sign of a life-threatening problem. Some common causes of chest pain are outlined below."
+        android:textColor="@color/white"
+
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="405dp"
+        android:gravity="left"
+        android:text="Shortness of breath\nCold sweats\nDizziness or weakness\nNausea or vomiting"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Symptoms"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="370dp"
+        android:gravity="left"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medicine"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="500dp"
+        android:gravity="left"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="535dp"
+        android:gravity="left"
+        android:text="Dissolve 1 nitroglycerin tablet under the tongue\nacetaminophen (Tylenol)"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="More Will Be Updated Soon"
+        android:layout_marginTop="610dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+
+        />
+</RelativeLayout>
